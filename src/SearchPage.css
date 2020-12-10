@@ -1,0 +1,50 @@
+.searchPage {
+  min-height: 100vh;
+  background-color: #070a0e;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.result {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 1rem;
+  background-color: #070a0e;
+  color: gray;
+  position: relative;
+  border-bottom: 1px solid #dfdfdf;
+}
+.result img {
+  object-fit: contain;
+  height: 200px;
+  width: 150px;
+}
+.result-info {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+.title {
+  color: #fff;
+}
+.vote {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.star-icon {
+  color: gold;
+  margin-left: 5px;
+}
+.overview {
+  line-height: 1.5;
+  font-size: 1rem;
+}

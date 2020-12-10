@@ -1,0 +1,50 @@
+.header {
+  height: 10vh;
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  object-fit: contain;
+  height: 50px;
+}
+.search {
+  background-color: #fff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 999px;
+  width: 30%;
+}
+.search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 5px 10px;
+  font-size: 15px;
+  width: 25%;
+}
+.MuiSvgIcon-root {
+  cursor: pointer;
+  color: #070a0e;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 7%;
+}
+.userinfo button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

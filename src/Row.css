@@ -1,0 +1,37 @@
+.row {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  background-color: #070a0e;
+  color: #fff;
+}
+.row h1 {
+  margin: 10px;
+  text-align: center;
+}
+.movie-container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.row::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.row {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.movie-container::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.movie-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
